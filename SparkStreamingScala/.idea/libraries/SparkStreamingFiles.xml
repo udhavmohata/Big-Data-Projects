@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="SparkStreamingFiles">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/WordCount.jar!/" />
+      <root url="jar://$PROJECT_DIR$/sbt.zip!/" />
+      <root url="jar://$PROJECT_DIR$/twitter4j-core-4.0.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/twitter4j-stream-4.0.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dstream-twitter_2.12-0.1.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
