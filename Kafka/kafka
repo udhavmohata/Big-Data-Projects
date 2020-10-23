@@ -1,0 +1,18 @@
+To start zookeeper:
+bin/zookeeper-server-start.sh config/zookeeper.properties
+
+To start Kafka:
+bin/kafka-server-start.sh config/server.properties
+
+To create a topic:(topic name: kafkapublish)
+bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic kafkaPublish
+
+To start Consumer:(in cmd)
+bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic sink2 --from-beginning
+
+
+To start Producer:(in cmd)
+bin/kafka-console-producer.sh --broker-list localhost:9092 --topic kafkaPublish
+bin/kafka-console-producer.sh --broker-list localhost:9092 --topic testing < /home/UDHAV.MAHATA/Documents/Spark/logs/access_logs.txt
+
+
